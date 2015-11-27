@@ -9,9 +9,9 @@
     <!-- ===========================
     THEME INFO
     =========================== -->
-    <meta name="description" content="CVstrap is another Free minimal CV HTML theme by EvenFly built with Bootstrap 3.3.0. and released under CC-3.0 license.">
-    <meta name="keywords" content="curriculum vitae, cv, one page, onepage, bootstrap, responsive, resume, timeline, free cv">
-    <meta name="author" content="Mamun Srizon">
+    <meta name="description" content="">
+    <meta name="keywords" content="curriculum vitae, cv, resume, assem, chelli, bigother">
+    <meta name="author" content="Assem Chelli">
 
     <!-- ===========================
     SITE TITLE
@@ -48,13 +48,50 @@
 </head>
 
 <body>
+    <nav class="navbar navbar-default">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#"></a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Curriculum Vitae <span class="sr-only">CV</span></a></li>
+            <li class="disabled"><a href="#">Research</a></li>
+            <!-- <li><a href="#">Projects</a></li> -->
+            <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Resources<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="/info3/">Informatique 3 - Univ Bouira</a></li>
+                <li><a href="/res5/">Reseaux 5 - Univ Bouira</a></li>
+                <li role="separator" class="divider"></li>
+                <li class="disabled"><a href="#" >Source Codes</a></li>
+            </ul>
+            </li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+            <li class="disabled"><a href="#" > Contact </a></li>
+        </ul>
+        </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+    </nav>
+
+
     <div class="container">
         <!-- ===========================
         HEADER
         ============================ -->
         <div id="header" class="row">
             <div class="col-sm-2">
-                <img class="propic" src="img/Assem.jpg" alt="">
+                <img class="propic" src="img/assem2.png" alt="">
             </div>
             <!-- photo end-->
 
@@ -65,7 +102,7 @@
                             <h1>Assem CHELLI / عاصم شلي</h1>
                         </div>
                         <div class="col-sm-5 text-right dl-share">
-                            <a class="btn btn-success" href=""><span class="fa fa-download"></span>Download</a>
+                            <a class="btn btn-success" href="cv/Assem Chelli CV.pdf"><span class="fa fa-download"></span>Download PDF</a>
                         </div>
                     </div>
                     <h2>Researcher / Software Engineer</h2>
@@ -79,6 +116,8 @@
                         <ul class="list-unstyled">
                             <li><a href=""><span class="social fa fa-home "></span>Algiers, Algeria</a>
                             </li>
+                            <li><a href=""><span class="social fa fa-phone"></span>00213 794243270</a>
+                            </li>
                             <li><a href=""><span class="social fa fa-skype"></span>assem.ch</a>
                             </li>
                             <li><a href="mailto:assem.ch@gmail.com"><span class="social fa fa-envelope-o"></span>assem[dot]ch[at]gmail.com</a>
@@ -88,12 +127,17 @@
 
                     <div class="col-sm-4">
                         <ul class="list-unstyled">
-                            <li><a href="http://www.chess.com/members/view/bigother"><span class="social fa fa-circle"></span>Chess</a>
-                            </li>
+                           
                             <li><a href="https://twitter.com/assem_ch"><span class="social fa fa-twitter"></span>Twitter</a>
                             </li>
                             <li><a href="https://dz.linkedin.com/in/assemchelli"><span class="social fa fa-linkedin"></span>Linkedin</a>
                             </li>
+                            <li><a href="http://www.slideshare.net/AssemCHELLI"><span class="social fa fa-slideshare"></span>Slideshare</a>
+                            </li>
+                            <li><a href="https://www.researchgate.net/profile/Assem_Chelli"><span class="social fa fa-book"></span>Researchgate</a>
+                            </li>
+
+                           
                         </ul>
                     </div><!-- social 2nd col end-->
 
@@ -104,6 +148,8 @@
                             <li><a href="https://stackoverflow.com/users/1327005/bigother"><span class="social fa fa-stack-overflow"></span>Stackoverflow</a>
                             </li>
                             <li><a href="https://www.hackerrank.com/bigOTHER"><span class="social fa fa-flag-checkered"></span>Hackerrank</a>
+                            </li>
+                              <li><a href="http://www.chess.com/members/view/bigother"><span class="social fa fa-circle"></span>Chess.com</a>
                             </li>
                         </ul>
                     </div><!-- social 3rd col end-->
@@ -124,11 +170,28 @@
 
                 <div class="col-sm-11">
                     <h3>Personal statement </h3>
-                    <p>Hi, I am Assem from Algeria.</p>
+                    <p class="text-justify"> I’m Assem Chelli from Algeria, I have Magister degree 2013 in Computer Science From
+                        Ecole Nationale Superiure d'Informatique ESI.dz. Currently, I work as part-time software en-
+                        gieer and assistant professor in Bouira university,Algeria. My contributions in Open source
+                        projects as a founder, a project manager and Python developer gave me some considerable
+                        skills in taking on the responsibility, managing projects, leading teams, Coding in a proper way
+                        and respecting the standards. I stood for some freelancing tasks and competitions that gener-
+                        ally are hard to resolve and limited in time. Those tasks push me to acquire autonomy, high
+                        scripting skills and efficacy to beat time. I am fiercely competitive and readily rise to any chal-
+                        lenge. My research experience could be summarized in Search/Indexing in Quran &amp; Arabic
+                        which is classified as Information Retrieval/Natural language Processing. I defend my ideas
+                        but I respect others’ opinions and suggestions. I was speaker in many events and conferences,
+                        trained computing students in Python and taught computer basics to non-computing students.
+                        I could develop in many programming languages and I am most proficient in Python and C++.
+                        Though, I have a solid programming background and extensive experience in PHP and Java
+                        too. I’ve got chosen to be participant in Google Summer of Code 2013, in the project OWASP
+                        OWTF (Offensive Web Testing Framework) and Google Summer of Code 2014 in the project Xapian.
+
+                    </p>
 
                     <p></p>
 
-                    <p class="signature">Assem bigOTHER</p>
+                    <p class="signature">Assem CHELLI</p>
                 </div><!--info end-->
             </div><!--personal statement end-->
 
@@ -140,33 +203,33 @@
                 </div><!--icon end-->
 
                 <div class="col-sm-11">
-                    <h3>Education &amp; Certification</h3>
+                    <h3>Education</h3>
 
                     <div class="row">
                         <div class="col-md-9">
-                            <h4>MSc in Design &amp; Fine Art</h4>
-                            <p class="sub"><a href="">Ideal Institute of Science and Technology</a>
+                            <h4>Magister in Mobile&amp;Distributed Computing, Computer Science</h4>
+                            <p class="sub"><a href="">Ecole Nationale Superiure d'informatique, Algiers, Algeria (ESI.dz)</a>
                             </p>
-                            <p>Studying all aspect of Graphic Design Including Advertising Design, Branding, Copy Exhibition Design, Ilustration, Information Design, Packaging Design and Website Design</p>
+                            <p></p>
                         </div>
 
                         <div class="year col-md-3">
-                            <p>2009-2011</p>
+                            <p>2010-2013</p>
                         </div>
-                    </div><!--Education & Certification 1 end-->
+                    </div><!--Education 1 end-->
                     
                     <hr>
                     
                     <div class="row">
                         <div class="col-md-9">
-                            <h4>BSc in Graphic Design</h4>
-                            <p class="sub"><a href="">Ideal Institute of Science and Technology</a>
+                            <h4>Engineer Degree in Computing Systems, Computer Scicence</h4>
+                            <p class="sub"><a href="">Ecole Nationale Superiure d'informatique, Algiers, Algeria (ESI.dz)</a>
                             </p>
-                            <p>Studying all aspect of Graphic Design Including Advertising Design, Branding, Copy Exhibition Design, Ilustration, Information Design, Packaging Design and Website Design</p>
+                            <p></p>
                         </div>
 
                         <div class="year col-md-3">
-                            <p>2006-2009</p>
+                            <p>2005-2010</p>
                         </div>
                     </div><!--Education & Certification 2 end-->
 
@@ -174,14 +237,14 @@
 
                     <div class="row">
                         <div class="col-md-9">
-                            <h4>Diploma in Graphic Design</h4>
-                            <p class="sub"><a href="">Ideal Institute of Science and Technology</a>
+                            <h4>High School Diploma in Exact Sciences</h4>
+                            <p class="sub"><a href="">Technical High school Dekhli Mokhtar, Jijel, Algeria</a>
                             </p>
-                            <p>Studying all aspect of Graphic Design Including Advertising Design, Branding, Copy Exhibition Design, Ilustration, Information Design, Packaging Design and Website Design</p>
+                            <p></p>
                         </div>
 
                         <div class="year col-md-3">
-                            <p>2003-2006</p>
+                            <p>2002-2005</p>
                         </div>
                     </div><!--Education & Certification 3 end-->
                 </div>
@@ -202,54 +265,94 @@
 
                     <div class="row">
                         <div class="col-md-9">
-                            <h4>Lead Graphic Designer</h4>
-                            <p class="sub"><a href="">Lifeview Media Ltd.</a>
+                            <h4>Computing Systems Engineer</h4>
+                            <p class="sub"><a href="">ESI.dz</a>
                             </p>
-                            <p>Adipiscing elit. Nullam dapibus vehicula condimentum. Curabitur elit enim, accumsan vitae tristique ut, mollis at orci. Fusce cursus interdum neque nec aliquam. Proin turpis leo, laoreet non ultricies non, dictum nec nulla.</p>
+                            <p></p>
                         </div>
 
                         <div class="year col-md-3">
-                            <p>2008 - present</p>
+                            <p>2011-2013</p>
                         </div>
                     </div><!--Job 1 end-->
                     
                     <hr>
-                    
+
+                </div><!--Job experiences end-->
+            </div><!--Job experiences end-->
+
+
+        
+        
+            <!-- ===========================
+            Research Experience
+            ============================ -->
+            <div id="job" class="row mobmid">
+                <div class="col-sm-1">
+                    <span class="secicon fa fa-book"></span>
+                </div><!--icon end-->
+
+                <div class="col-sm-11">
+                    <h3>Research Experience</h3>
+
                     <div class="row">
                         <div class="col-md-9">
-                            <h4>Sr. Graphic Designer</h4>
-                            <p class="sub"><a href="">Softech solution ltd.</a>
+                            <h4>Computing Systems Engineer</h4>
+                            <p class="sub"><a href="">ESI.dz</a>
                             </p>
-                            <p>Studying all aspect of Graphic Design Including Advertising Design, Branding, Copy Exhibition Design, Ilustration, Information Design, Packaging Design and Website Design</p>
+                            <p></p>
                         </div>
 
                         <div class="year col-md-3">
-                            <p>2006-2008</p>
+                            <p>2011-2013</p>
                         </div>
-                    </div><!--Job 2 end-->
+                    </div><!--Job 1 end-->
                     
                     <hr>
-                    
-                       <div class="row">
-                        <div class="col-md-9">
-                            <h4>Jr. Graphic Designer</h4>
-                            <p class="sub"><a href="">TwinTwin Design Solution</a>
-                            </p>
-                            <p>Studying all aspect of Graphic Design Including Advertising Design, Branding, Copy Exhibition Design, Ilustration, Information Design, Packaging Design and Website Design</p>
-                        </div>
 
-                        <div class="year col-md-3">
-                            <p>2003-2006</p>
-                        </div>
-                    </div><!--Job 3 end-->
                 </div><!--Job experiences end-->
             </div><!--Job experiences end-->
         </div><!--left end-->
         
+   
         <!-- ===========================
         SIDEBAR
         =========================== -->
         <div class="col-md-4 mainright">
+        <div class="row">
+                <div class="col-sm-1 col-md-2 mobmid">
+                    <span class="secicon fa fa-language"></span>
+                </div><!--icon end-->
+
+                <div class="col-sm-11 col-md-10">
+                    <h3 class="mobmid">Languages </h3>
+
+                    <p>Arabic (Native) </p>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%">
+                            <span class="sr-only">100% Complete</span>
+                        </div>
+                    </div><!--skill end-->
+
+
+                    <p>English TOEFL iBT: 83/120</p>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="83" aria-valuemin="0" aria-valuemax="120" style="width: 69%">
+                            <span class="sr-only">83/180</span>
+                        </div>
+                    </div><!--skill end-->
+                    
+                    <p>French TCF: 418/700</p>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="418" aria-valuemin="0" aria-valuemax="700" style="width: 60%">
+                            <span class="sr-only">418/700</span>
+                        </div>
+                    </div><!--skill end-->
+                    
+
+
+                </div><!--info end-->
+            </div><!--languages end-->
             <div class="row">
                 <div class="col-sm-1 col-md-2 mobmid">
                     <span class="secicon fa fa-magic"></span>
@@ -260,16 +363,23 @@
 
                     <p>Python</p>
                     <div class="progress">
-                        <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
-                            <span class="sr-only">80% Complete (success)</span>
+                        <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%">
+                            <span class="sr-only">100% Complete</span>
                         </div>
                     </div><!--skill end-->
 
 
                     <p>C/C++</p>
                     <div class="progress">
-                        <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%">
-                            <span class="sr-only">50% Complete</span>
+                        <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%">
+                            <span class="sr-only">100% Complete</span>
+                        </div>
+                    </div><!--skill end-->
+                    
+                    <p>git</p>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%">
+                            <span class="sr-only">100% Complete</span>
                         </div>
                     </div><!--skill end-->
                     
@@ -294,21 +404,16 @@
                     <h3>Awards</h3>
 
                     <div class="award">
-                        <h4>Best Designer 2012</h4>
-                        <p class="sub"><a href="">Life View Media Ltd.</a></p>
-                        <p>Studying all aspect of Graphic Design Including Advertising Design, Branding, Copy Exhibition Design, Ilustration.</p>
+                        <h4>Best Project in Technicality</h4>
+                        <p class="sub"><a href="">Algeria Web Awards 2012</a></p>
+                        <p>Alfanous Project has nominated as the best project in technicality in Algeria Web Awards 2012</p>
                     </div>
                     <!--1st award end-->
 
-                    <div class="award">
-                        <h4>Best Designer 2011</h4>
-                        <p class="sub"><a href="">Alexa Design Solution</a></p>
-                        <p>Studying all aspect of Graphic Design Including Advertising Design, Branding, Copy Exhibition Design, Ilustration, Information Design, Packaging Design and Website Design</p>
-                    </div><!--1st award end-->
                 </div><!--awards end-->
 
             </div>
-            
+
             <hr>
 
             <div class="row ">
@@ -321,30 +426,13 @@
 
                     <div class="row">
                         <blockquote>
-                            <p>Sit amet, consectetur adipisicing elit. Fuga quidem ipsum maiores necessitatibus sint, porro temporibus labore, amet officia unde libero eligendi? Porro dolorum itaque, facere harum amet, rem libero.</p>
+                            <p>Assem is a great person i ever know, an innovative and humble person, has a lot develpment skills. I'm very proud of him! </p>
                         </blockquote>
-                        <img src="img/mushfiq.jpg" alt="">
-                        <h4>Mushfiqul Islam</h4>
-                        <p>The UX Votch</p>
+                        <img src="img/muslih.jpg" alt="">
+                        <h4>Muslihul Aqqad</h4>
                     </div><!--1st testimonial end-->
 
-                    <div class="row">
-                        <blockquote>
-                            <p>Consectetur adipisicing elit. Fuga quidem ipsum maiores necessitatibus sint, porro temporibus labore, unde libero eligendi? Porro dolorum itaque, facere harum amet, rem libero.</p>
-                        </blockquote>
-                        <img src="img/siblu.jpg" alt="">
-                        <h4>E.A. Siblu</h4>
-                        <p>The Jatir Vobisshot</p>
-                    </div><!--2nd testimonial end-->
 
-                    <div class="row">
-                        <blockquote>
-                            <p>Fuga quidem ipsum maiores necessitatibus sint, porro temporibus labore, amet officia unde libero eligendi? Porro dolorum itaque, facere harum amet, rem libero.</p>
-                        </blockquote>
-                        <img src="img/nasir.jpg" alt="">
-                        <h4>Nasir Uddin</h4>
-                        <p>The Cute Huzur</p>
-                    </div><!--3rd testimonial end-->
                 </div><!--testimonials end-->
             </div><!--tech skills end-->
         </div><!--right end-->
